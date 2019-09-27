@@ -1,0 +1,2 @@
+#Find the IP that was assigned to you by dhcp server
+ifconfig en0 |grep "inet "

@@ -1,0 +1,3 @@
+#Identify and display the Ethernet interface characteristics:
+#(a) Identify broadcast address
+ifconfig |grep "broadcast" | cut -d ' ' -f 6

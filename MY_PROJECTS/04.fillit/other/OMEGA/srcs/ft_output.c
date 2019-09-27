@@ -1,0 +1,32 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_output.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kfalia-f <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/01/15 19:46:14 by kfalia-f          #+#    #+#             */
+/*   Updated: 2019/01/30 16:52:17 by kbethany         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "header.h"
+
+void	ft_output(char **result)
+{
+	int i;
+
+	i = 0;
+	while ((result[i]))
+	{
+		ft_putstr((result[i]));
+		ft_putchar('\n');
+//		ft_strdel(&result[i]);
+//		result[i] = NULL;
+		i++;
+	}
+//	ft_strdel(&result[i]);
+//	result[i] = NULL;
+//	free(result);
+//	result = NULL;
+}

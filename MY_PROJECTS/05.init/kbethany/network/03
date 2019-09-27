@@ -1,0 +1,2 @@
+#Identify the MAC address of the Wi-Fi card
+networksetup -listallhardwareports | grep -A2 Wi-Fi | grep Add | cut -d " " -f 3

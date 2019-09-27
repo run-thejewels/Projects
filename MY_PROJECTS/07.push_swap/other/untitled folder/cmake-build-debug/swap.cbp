@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="swap"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/kbethany/Desktop/ph/swap/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kbethany/Desktop/ph/swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kbethany/Desktop/ph/swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kbethany/Desktop/ph/swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kbethany/Desktop/ph/swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/kbethany/Desktop/ph/swap/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kbethany/Desktop/ph/swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kbethany/Desktop/ph/swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kbethany/Desktop/ph/swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kbethany/Desktop/ph/swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/kbethany/Desktop/ph/swap/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kbethany/Desktop/ph/swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kbethany/Desktop/ph/swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kbethany/Desktop/ph/swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kbethany/Desktop/ph/swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="swap">
+				<Option output="/Users/kbethany/Desktop/ph/swap/cmake-build-debug/swap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kbethany/Desktop/ph/swap/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kbethany/Desktop/ph/swap/."/>
+					<Add directory="/Users/kbethany/Desktop/ph/swap/ft_printf/include"/>
+					<Add directory="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kbethany/Desktop/ph/swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 swap"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kbethany/Desktop/ph/swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kbethany/Desktop/ph/swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kbethany/Desktop/ph/swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="swap/fast">
+				<Option output="/Users/kbethany/Desktop/ph/swap/cmake-build-debug/swap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kbethany/Desktop/ph/swap/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kbethany/Desktop/ph/swap/."/>
+					<Add directory="/Users/kbethany/Desktop/ph/swap/ft_printf/include"/>
+					<Add directory="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kbethany/Desktop/ph/swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 swap/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kbethany/Desktop/ph/swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kbethany/Desktop/ph/swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kbethany/Desktop/ph/swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/alg.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_isdigit.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_operations.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/include/head.h">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_atoi.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_atoi_llu.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_bits_copy.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_bits_filler.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_bits_listing.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_bits_print.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_bits_read_bit.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_bits_reverse_bits_in_byte.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_bits_reverse_bits_in_bytes.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_bits_reverse_memory.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_bits_shift.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_bits_shift_left.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_bits_shift_right.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_bits_write_bit.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_bzero.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_free.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_free_and_return.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_free_both.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_free_two_dimensional_array.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_get_all_files.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_get_all_files_free.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_get_arguments_command_line.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_get_file.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_isalnum.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_isalpha.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_isascii.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_isdigit.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_isprint.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_issign.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_issorted.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_isspace.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_itoa.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_itoa_double.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_itoa_float.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_itoa_llu.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_itoa_long.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_itoa_long_double_old.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_itoa_long_double_wrapper.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_itoa_long_long.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_jump.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_jump_pointer_to_n.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_letter_replacement.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_all_content_size.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_chain_len.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_copy_chain.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_cut.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_cut_numbers.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_deduplication.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_free_chain.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_get_end.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_join.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_monolith_convert_to_monolith.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_monolith_from_array.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_monolith_its_monolith.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_monolith_join_chains.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_monolith_lstnew.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_monolith_sort_quick.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_putstr_free.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_putstr_free_cs.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_putstr_sep.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_putstr_sep_free.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_sort_quick.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_stack_empty_stack_num.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_stack_empty_stack_num_tightly.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_stack_is_empty.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_stack_keep_stacks.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_stack_new_stack.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_stack_pop.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_stack_push.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_stack_push_back.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_stack_size.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_stack_top.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_stack_turn.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_strjoin.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_strjoin_counter_out.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_strjoin_counter_out_cs.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_strjoin_counter_out_free.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_strjoin_counter_out_free_cs.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_strjoin_cs.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_strjoin_free.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_strjoin_free_cs.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_strjoin_sep.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_strjoin_sep_counter_out.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_strjoin_sep_counter_out_free.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_strjoin_sep_free.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_strlen.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_strnew.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_to_array.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_to_array_free.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_to_array_nullterm.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_to_array_nullterm_free.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_turn.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_unit_transfer.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lst_unit_transfer_with_malloc.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lstadd.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lstadd_to_end.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lstdel.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lstdel_complite.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lstdelone.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lstiter.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lstmap.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lstnew.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lstnew_no_copy.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lstsearch_content.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lstsearch_cs.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lstsearch_cs_del.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lstsearch_cs_replace.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lstsearch_index.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_lstsearch_str_content.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_math_long_double_normilize.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_math_longar_str_add.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_math_longar_str_add_free_1.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_math_longar_str_add_free_both.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_math_longar_str_comparison.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_math_longar_str_division.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_math_longar_str_exponent_mix.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_math_longar_str_exponent_mix_free.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_math_longar_str_multi.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_math_longar_str_multi_free_1.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_math_longar_str_multi_free_both.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_math_longar_str_remainder_of_division.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_math_longar_str_subtraction.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_math_module_int.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_math_numlen_long.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_math_numlen_long_double.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_math_root.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_math_rounding_down_double.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_math_rounding_down_float.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_math_rounding_down_l_double.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_maxmin.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_mem_reverse.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_memalloc.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_memccpy.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_memchr.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_memcmp.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_memcpy.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_memcpy_safe.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_memdel.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_memdup.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_memjoin.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_memjoin_free_1.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_memmove.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_memset.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_new_null_str.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_nuller_double_point.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_nuller_double_size_t.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_numch.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_open_file_readonly.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_print_two_dimensional_array.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_putchar.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_putchar_fd.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_putendl.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_putendl_fd.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_putnbr.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_putnbr_fd.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_putstr.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_putstr_fd.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_putstr_len.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_putstr_len_fd.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_range_str.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_sort_quick.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_str_disnuller_end.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_str_lower.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_str_reverse.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_str_upper.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_str_width.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_str_width_free.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strcat.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strchr.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strclr.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strcmp.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strcmp_no_spaces.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strcpy.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strdel.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strdup.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strdup_free.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strdup_n.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strdup_n_free.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strequ.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_striter.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_striteri.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strjoin.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strjoin_free_1.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strjoin_free_2.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strjoin_free_both.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strlcat.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strlen.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strlen_safe.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strmap.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strmapi.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strncat.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strncmp.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strncpy.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strnequ.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strnew.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strnew_filler.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strnew_not_bzero.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strnstr.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strrchr.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strsplit.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strsplit_spaces.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strstr.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strsub.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_strtrim.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_swap_byte.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_swap_n_bytes.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_this_all_files_is_same.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_this_all_files_is_same_free.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_this_files_is_same.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_tolower.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/ft_toupper.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/get_next_line.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/libft/includes/libft.h">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/charer.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/check_flags.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/first_flag_before.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/fixer.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/fixer_free.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/fixer_num.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/fixer_p.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/fixer_str.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/flag_begin_chek.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/flag_nuller.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/ft_itoa_base_long.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/ft_itoa_specific.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/ft_itoa_specific_part_1.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/ft_itoa_specific_part_2.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/ft_printf.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/is_it_flag.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/just_to_print_len.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/ok.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/only_1_flag.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/out_from_flag.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/out_str.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/post_persent.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/print_flag_bonus.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/print_flag_d.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/print_flag_f.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/print_flag_o.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/print_flag_p.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/print_flag_sc.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/print_flag_u.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/print_flag_x.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/print_lst.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/printer.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/second_flag.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/ft_printf/sources/size_flag.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/push_swap.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/push_swap.h">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/pushes.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/sorter.c">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/Users/kbethany/Desktop/ph/swap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

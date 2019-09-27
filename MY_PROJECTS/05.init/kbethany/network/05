@@ -1,0 +1,2 @@
+#Identify the IP address of the DNS that responds to the following url: slash16.org
+traceroute slash16.org

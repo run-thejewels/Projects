@@ -1,0 +1,3 @@
+# What file has to be modified to make it permanent? 
+Hostnamectl set-hostname machine-name-here
+Hostnamectl set-hostname имя

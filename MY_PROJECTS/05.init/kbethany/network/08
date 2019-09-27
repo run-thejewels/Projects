@@ -1,0 +1,2 @@
+#Find the provider of slash16.org
+nslookup -type=soa slash16.org | grep 'mail'

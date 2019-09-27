@@ -1,0 +1,9 @@
+#!/bin/bash
+while true
+do
+	for num in {0..5}
+	do
+		./mapgen $(((RANDOM%1000)+999)) $(((RANDOM%1000)+999)) $(((RANDOM%1000)+999)) > "map${num}"
+						  sleep 1
+						  done
+done

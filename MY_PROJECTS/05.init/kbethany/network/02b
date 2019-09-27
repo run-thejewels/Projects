@@ -1,0 +1,3 @@
+#Identify and display the Ethernet interface characteristics:
+#(b) Identify all IP adresses which are part of the same subnet
+ ping -c 2 $(ifconfig | grep "broadcast" | cut -d ' ' -f 6)

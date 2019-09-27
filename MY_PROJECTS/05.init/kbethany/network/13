@@ -1,0 +1,2 @@
+#Thanks to the previous question and the reverse DNS find the name of your host
+nslookup 192.168.50.2 | grep "name" |cut -d " " -f 3
