@@ -1,0 +1,27 @@
+12
+##start
+a 0 2
+b 2 2
+c 4 2
+d 6 2
+##end
+e 8 2
+f 1 0
+g 3 0
+h 5 0
+i 3 4
+j 5 4
+k 7 4
+a-f
+a-b
+f-g
+g-h
+h-d
+b-c
+b-i
+c-d
+d-e
+i-j
+j-k
+k-e
+d-j
