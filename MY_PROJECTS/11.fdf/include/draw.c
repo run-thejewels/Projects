@@ -32,7 +32,6 @@ void draw_map(t_dot* data)
   int y;
 
   y = 0;
-  print_menu(data);
   while(y < data->x)
   {
     x = 0;

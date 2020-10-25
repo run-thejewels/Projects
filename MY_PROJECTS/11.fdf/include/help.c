@@ -20,9 +20,3 @@ void isometric(float *x, float *y, int z, float angle)
   *x = (*x - *y) * cos(angle);
   *y = (*x + *y) * sin(angle) - z;
 }
-
-void	ft_error(char *msg)
-{
-	ft_printf("%s\n", msg);
-	exit(1);
-}

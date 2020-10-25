@@ -27,7 +27,10 @@ int main(int argc, char **argv)
   t_dot *data;
 
   if (argc != 2)
-    ft_error("usage: ./fdf map.fdf");
+  {
+    ft_printf("usage: ./fdf map.fdf");
+    return (0);
+  }
   data = (t_dot*)malloc(sizeof(t_dot));
   defolt_params(data);
   read_file(argv[1], data);

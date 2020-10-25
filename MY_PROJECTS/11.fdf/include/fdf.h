@@ -16,6 +16,7 @@ typedef struct
   int shift_y;
   float angle;
   int bresenham;
+  int menu;
 
   void *mlx_ptr;
   void *win_ptr;
@@ -38,6 +39,8 @@ void get_step(float x, float y, float x1, float y1, float* x_s, float* y_s);
 float max_f(float a, float b);
 float mod_f(float a);
 void isometric(float *x, float *y, int z, float angle);
+void	ft_error(char *msg);
 
+void	print_menu(t_dot* data);
 
 #endif
