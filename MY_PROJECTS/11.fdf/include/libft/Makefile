@@ -3,16 +3,16 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: Nik <Nik@student.42.fr>                    +#+  +:+       +#+         #
+#    By: kbethany <kbethany@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/05/03 17:45:40 by vinograd          #+#    #+#              #
-#    Updated: 2019/08/31 17:09:21 by Nik              ###   ########.fr        #
+#    Updated: 2020/11/01 20:48:37 by kbethany         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME=libft.a
 
-SRCS=*.c ft_printf/*.c array_int/*.c
+SRCS=*.c ft_printf/*.c
 
 OBJECTS=*.o
 
