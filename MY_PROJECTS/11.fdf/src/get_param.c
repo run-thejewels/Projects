@@ -36,11 +36,11 @@ void	get_shift(t_dot *a, t_dot *b, t_data *data)
 	b->y += data->shift_y;
 }
 
-void	get_step(t_dot *a, t_dot *b, float *x_s, float *y_s)
+void	get_step(t_dot a, t_dot b, float *x_s, float *y_s)
 {
 	float	max;
 
-	max = max_f(mod_f(b->x - a->x), mod_f(b->y - a->y));
-	*x_s = (b->x - a->x) / max;
-	*y_s = (b->y - a->y) / max;
+	max = max_f(mod_f(b.x - a.x), mod_f(b.y - a.y));
+	*x_s = (b.x - a.x) / max;
+	*y_s = (b.y - a.y) / max;
 }

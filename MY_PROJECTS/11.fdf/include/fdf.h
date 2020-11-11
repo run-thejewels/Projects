@@ -53,7 +53,7 @@ void		flag_b(int key, t_data *data);
 void		get_zoom(t_dot *a, t_dot *b, int zoom);
 void		get_color(int z, int z1, t_data *data);
 void		get_shift(t_dot *a, t_dot *b, t_data *data);
-void		get_step(t_dot *a, t_dot *b, float *x_s, float *y_s);
+void		get_step(t_dot a, t_dot b, float *x_s, float *y_s);
 
 float		max_f(float a, float b);
 float		mod_f(float a);

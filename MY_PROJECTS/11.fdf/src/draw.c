@@ -23,7 +23,7 @@ void	bresenham_right(t_dot a, t_dot b, t_data *data)
 	get_zoom(&a, &b, data->zoom);
 	get_color(a.z, a.z, data);
 	get_shift(&a, &b, data);
-	get_step(&a, &b, &x_step, &y_step);
+	get_step(a, b, &x_step, &y_step);
 	if (data->bresenham)
 	{
 		isometric(&a.x, &a.y, a.z, data->angle);
@@ -48,7 +48,7 @@ void	bresenham_down(t_dot a, t_dot b, t_data *data)
 	get_zoom(&a, &b, data->zoom);
 	get_color(a.z, a.z, data);
 	get_shift(&a, &b, data);
-	get_step(&a, &b, &x_step, &y_step);
+	get_step(a, b, &x_step, &y_step);
 	if (data->bresenham)
 	{
 		isometric(&a.x, &a.y, a.z, data->angle);
@@ -69,10 +69,10 @@ void	draw_map(t_data *data)
 
 	start_dot.y = -1;
 	print_menu(data);
-	while (start_dot.y++ < data->x)
+	while (start_dot.y++ < data->x - 1)
 	{
 		start_dot.x = -1;
-		while (start_dot.x++ < data->y)
+		while (start_dot.x++ < data->y - 1)
 		{
 			end_dot.x = start_dot.x;
 			end_dot.y = start_dot.y;
